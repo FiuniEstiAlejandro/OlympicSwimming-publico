@@ -1,0 +1,2 @@
+javac -cp lib/uwcse.jar -d build/classes $(find src -name "*.java")
+java -cp build/classes:lib/uwcse.jar olympicswimming.AvancePelicula
